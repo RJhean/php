@@ -1,6 +1,6 @@
 # PHP 
 
-1. [Introducción](index.php)
-2. [Introducción](segunda_pagina.php)
-3. [Introducción](flujo_ejecución.php)
+1. [Introducción "Hola Mundo"](index.php)
+2. [Comentarios y Variables](segunda_pagina.php)
+3. [Funciones](flujo_ejecución.php)
 
