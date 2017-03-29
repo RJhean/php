@@ -7,16 +7,16 @@
 <body>
     <?php 
 
-        echo "Estes es el Primer mensaje <br>";
         // funciones : no se ejecuta hasta que sea llamada
         //             nos permiten reutilizar la función
+        // include : nos permite incluir archivos externos, si no existe  la función ejecuta el programa, marcandonos solo el error de esa parte
+        // require : si no existe la funcion no ejecuta el programa, nos marca error todo lo que este despues de require
+    
+        echo "Estes es el Primer mensaje <br>";
 
-        function dameDatos(){
-            echo "Este es el mensaje de la función <br>";
-
-        }
-        dameDatos();
+        include 'propociona_datos.php';
         echo "Estes es el segundo mensaje <br>";
+        dameDatos();
 
      ?>
 </body>
